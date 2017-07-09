@@ -1,5 +1,40 @@
-$heading-color: hotpink;
+//VARIABLES
+$black: #000;
+$white: #fff;
+
+//GLOBAL STYLES
+body {
+  background-color: $black;
+  color: $white;
+
+}
 
 h1 {
-	color: $heading-color;
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+a {
+  color: $white;
+  text-decoration: none;
+}
+
+//NAV
+nav {
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+		li {
+			display: inline;
+		}
+	}
 }
