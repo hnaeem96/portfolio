@@ -1,7 +1,7 @@
 {
   "name": "portfolio-site",
   "version": "1.0.0",
-  "description": "Hassan Naeem is a front-end developer residing in NYC",
+  "description": "Portfolio Website for Hassan Naeem",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,6 +12,14 @@
     "type": "git",
     "url": "git+https://github.com/hnaeem96/portfolio.git"
   },
+  "keywords": [
+    "portfolio",
+    "hassan",
+    "naeem",
+    "website",
+    "landing",
+    "page"
+  ],
   "author": "Hassan Naeem",
   "license": "ISC",
   "bugs": {
@@ -20,7 +28,6 @@
   "homepage": "https://github.com/hnaeem96/portfolio#readme",
   "devDependencies": {
     "@pingy/cli": "^0.6.13",
-    "node-sass": "^4.5.3",
-    "pug": "^2.0.0-rc.2"
+    "node-sass": "^4.5.3"
   }
 }
