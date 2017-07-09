@@ -25,6 +25,10 @@ a {
   text-decoration: none;
 }
 
+section {
+  margin-bottom: 10rem;
+}
+
 //NAV
 nav {
   left: 0;
@@ -59,4 +63,9 @@ nav {
       }
     }
   }
+}
+
+//HOME SECTION
+.home-section {
+  margin-top: 90px;
 }
