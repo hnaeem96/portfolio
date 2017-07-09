@@ -6,7 +6,6 @@ $white: #fff;
 body {
   background-color: $black;
   color: $white;
-
 }
 
 h1 {
@@ -28,13 +27,36 @@ a {
 
 //NAV
 nav {
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  left: 0;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
 
-		li {
-			display: inline;
-		}
-	}
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+
+    ul {
+      align-items: center;
+      display: flex;
+      justify-content: flex-end;
+      list-style: none;
+
+      li {
+        padding: 20px;
+      }
+    }
+  }
 }
