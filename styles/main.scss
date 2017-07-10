@@ -1,9 +1,20 @@
-//VARIABLES
+//COLORS
 $black: #000;
 $white: #fff;
 
+//FONTS
 $base-text: 16px;
 $base-margin: $base-text * 1.6;
+
+$font-family: 'Josefin Sans', sans-serif;
+$font-weight-normal: 300;
+$font-weight-medium: 400;
+$font-weight-bold: 600;
+
+//BREAKPOINTS
+$desktop: 1024px;
+$tablet: 768px;
+$phone: 360px;
 
 //GLOBAL STYLES
 html {
@@ -14,7 +25,7 @@ html {
 body {
   background-color: $black;
   color: $white;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: $font-family;
   font-size: $base-text;
 }
 
@@ -26,15 +37,15 @@ h3 {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 5em;
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 4em;
 }
 
 h3 {
-  font-size: 3rem;
+  font-size: 3em;
 }
 
 a {
@@ -44,6 +55,22 @@ a {
 
 section {
   margin-bottom: 10rem;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container:before, .container:after {
+  content: ' ';
+  display: table;
+}
+
+.container:after {
+  clear: both;
 }
 
 //NAV
@@ -60,14 +87,14 @@ nav {
   }
 
   .logo {
-    display: flex;
     align-items: center;
+    display: flex;
     padding: 20px;
   }
 
   .menu {
-    display: flex;
     align-items: center;
+    display: flex;
 
     ul {
       align-items: center;
@@ -85,4 +112,24 @@ nav {
 //HOME SECTION
 .home-section {
   margin-top: 90px;
+}
+
+
+//QUERIES
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
 }
