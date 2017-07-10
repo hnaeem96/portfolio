@@ -1,0 +1,11 @@
+.home-section {
+  height: 99vh;
+  // margin-top: 80px;
+  text-align: center;
+
+  .container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

@@ -1,0 +1,38 @@
+nav {
+  background: $black;
+  left: 0;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+
+  .navbar {
+    .container {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .logo {
+    align-items: center;
+    display: flex;
+    padding: 1rem;
+  }
+
+  .menu {
+    align-items: center;
+    display: flex;
+
+    ul {
+      align-items: center;
+      display: flex;
+      justify-content: flex-end;
+      list-style: none;
+
+      li {
+        padding: 1rem 2rem;
+      }
+    }
+  }
+}
