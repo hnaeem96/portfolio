@@ -3,8 +3,8 @@ $black: #000;
 $white: #fff;
 
 //FONTS
-$base-text: 16px;
-$base-margin: $base-text * 1.6;
+$base-font-size: 16px;
+$base-margin: $base-font-size * 1.6;
 
 $font-family: 'Josefin Sans', sans-serif;
 $font-weight-normal: 300;
@@ -26,12 +26,13 @@ body {
   background-color: $black;
   color: $white;
   font-family: $font-family;
-  font-size: $base-text;
+  font-size: $base-font-size;
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-weight: 400;
   margin: $base-margin;
 }
@@ -48,6 +49,10 @@ h3 {
   font-size: 3em;
 }
 
+h4 {
+  font-size: 2em;
+}
+
 a {
   color: $white;
   text-decoration: none;
@@ -55,6 +60,7 @@ a {
 
 section {
   margin-bottom: 10rem;
+  padding: 1rem;
 }
 
 .container {
@@ -62,34 +68,39 @@ section {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-}
 
-.container:before, .container:after {
-  content: ' ';
-  display: table;
-}
+  ::before,
+  ::after {
+    content: ' ';
+    display: table;
+  }
 
-.container:after {
-  clear: both;
+  ::after {
+    clear: both;
+  }
 }
 
 //NAV
 nav {
+  background: $black;
   left: 0;
   margin: auto;
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
 
   .navbar {
-    display: flex;
-    justify-content: space-between;
+    .container {
+      display: flex;
+      justify-content: space-between;
+    }
   }
 
   .logo {
     align-items: center;
     display: flex;
-    padding: 20px;
+    padding: 1rem;
   }
 
   .menu {
@@ -103,7 +114,7 @@ nav {
       list-style: none;
 
       li {
-        padding: 20px 40px;
+        padding: 1rem 2rem;
       }
     }
   }
@@ -111,7 +122,15 @@ nav {
 
 //HOME SECTION
 .home-section {
-  margin-top: 90px;
+  height: 99vh;
+  // margin-top: 80px;
+  text-align: center;
+
+  .container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
 
 
