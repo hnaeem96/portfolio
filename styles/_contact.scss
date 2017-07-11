@@ -1,4 +1,16 @@
 .contact-section {
+  .links-row {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 1rem;
+    max-width: 300px;
+
+    img {
+      height: 45px;
+    }
+  }
+
   form {
     font-size: 16px;
     margin: auto;
