@@ -37,15 +37,17 @@
 
 
     .submit-btn {
-      background: $black;
+      background-color: $black;
       border: 2px solid $white;
       color: $white;
       cursor: pointer;
       height: 44px;
+      transition: background-color $transition-time, color $transition-time;
 
       &:hover {
-        background: $white;
+        background-color: $white;
         color: $black;
+        transition: background-color $transition-time, color $transition-time;
       }
     }
   }
