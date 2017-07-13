@@ -1,5 +1,11 @@
-var helloWorld = function() {
-	console.log('Hello World');
-};
+// var helloWorld = function() {
+// 	console.log('Hello World');
+// };
+//
+// helloWorld();
 
-helloWorld();
+$(document).ready(() => {
+	$('.mobile-menu').click(() => {
+		$('.menu').toggleClass("open");
+	})
+})
