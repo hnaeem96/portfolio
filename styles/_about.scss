@@ -7,46 +7,46 @@
     padding: 3rem 0;
 
     li {
+      background: $white;
       list-style-type: none;
-      position: relative;
-      width: 2.5px;
       margin: 0 auto;
       padding-top: 50px;
-      background: $white;
+      position: relative;
+      width: 2.5px;
 
       &:first-child {
         padding-top: 0;
       }
 
       &::after {
-        content: '';
-        position: absolute;
-        left: 50%;
-        bottom: 0;
-        transform: translateX(-50%);
-        width: 15px;
-        height: 15px;
-        border-radius: 50%;
         background: $black;
         border: 1.5px solid $white;
+        border-radius: 50%;
+        bottom: 0;
+        content: '';
+        height: 15px;
+        left: 50%;
+        position: absolute;
+        transform: translateX(-50%);
+        width: 15px;
       }
     }
   }
 
   .timeline-section {
-    position: relative;
-    bottom: 0;
-    width: 400px;
-    padding: 15px;
     border: 1px solid $white;
+    bottom: 0;
+    padding: 15px;
+    position: relative;
+    width: 400px;
 
     &::before {
-      content: '';
-      position: absolute;
-      bottom: 1px;
-      width: 0;
-      height: 0;
       border-style: solid;
+      bottom: 1px;
+      content: '';
+      height: 0;
+      position: absolute;
+      width: 0;
     }
   }
 
@@ -56,9 +56,9 @@
         left: 45px;
 
         &::before {
-          left: -20px;
-          border-width: 5px 10px 5px 0;
           border-color: transparent $white transparent transparent;
+          border-width: 5px 10px 5px 0;
+          left: -20px;
         }
       }
     }
