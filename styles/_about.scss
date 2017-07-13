@@ -1,5 +1,124 @@
 .about-section {
-  .container {
-    max-width: 800px;
+  p {
+    margin: 0;
+  }
+
+  ul {
+    padding: 3rem 0;
+
+    li {
+      list-style-type: none;
+      position: relative;
+      width: 2.5px;
+      margin: 0 auto;
+      padding-top: 50px;
+      background: $white;
+
+      &:first-child {
+        padding-top: 0;
+      }
+
+      &::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: $black;
+        border: 1.5px solid $white;
+      }
+    }
+  }
+
+  .timeline-section {
+    position: relative;
+    bottom: 0;
+    width: 400px;
+    padding: 15px;
+    border: 1px solid $white;
+
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: 1px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+    }
+  }
+
+  li {
+    &:nth-child(odd) {
+      .timeline-section {
+        left: 45px;
+
+        &::before {
+          left: -20px;
+          border-width: 5px 10px 5px 0;
+          border-color: transparent $white transparent transparent;
+        }
+      }
+    }
+
+    &:nth-child(even) {
+      .timeline-section {
+        left: -439px;
+
+        &::before {
+          right: -20px;
+          border-width: 5px 0 5px 10px;
+          border-color: transparent transparent transparent $white;
+        }
+      }
+    }
+  }
+}
+
+//MEDIA QUERIES
+@media screen and (max-width: 992px) {
+  .about-section {
+    li {
+      &:nth-child(even) {
+        .timeline-section {
+          left: -289px;
+        }
+      }
+
+      .timeline-section {
+        width: 250px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-section {
+    li {
+      margin-left: 0 !important;
+
+      &:nth-child(odd),
+      &:nth-child(even) {
+        .timeline-section {
+          left: 20px;
+        }
+      }
+
+      &:nth-child(odd),
+      &:nth-child(even) {
+        .timeline-section {
+          &:before {
+            display: none;
+          }
+        }
+      }
+
+      .timeline-section {
+        min-width: 220px;
+        width: calc(100vw - 100px);
+      }
+    }
   }
 }
