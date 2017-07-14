@@ -10,7 +10,9 @@
 
   .transition-arrow {
     bottom: 1rem;
+    left: 50%;
     position: absolute;
+    transform: translate(-50%);
   }
 
   @media only screen and (max-width: 767px) {
