@@ -41,7 +41,7 @@ h4 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 1.2em;
   line-height: 2rem;
 }
 
@@ -68,5 +68,17 @@ section {
 
   &::after {
     clear: both;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: $tablet-font-size;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: $mobile-font-size;
   }
 }

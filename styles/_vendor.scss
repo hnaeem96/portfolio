@@ -119,7 +119,7 @@
   }
 }
 
-@media (max-width: 900px) and (min-width:601px) { /* <- 3-2  hexagons per row */
+@media (max-width: 900px) and (min-width:769px) { /* <- 3-2  hexagons per row */
   .hex-grid{
     padding-bottom: 11%
   }
@@ -131,7 +131,7 @@
   }
 }
 
-@media (max-width: 600px) { /* <- 2-1  hexagons per row */
+@media (max-width: 768px) { /* <- 2-1  hexagons per row */
   .hex {
 		margin-bottom: 170px;
     width: 100%; /* = 100 / 3 */
@@ -139,5 +139,33 @@
 
 	.hexIn {
 		margin: 2rem -2%;
+	}
+}
+
+@media (max-width: 768px) and (min-width:630px) {
+  .hex {
+    margin-bottom: 220px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hexIn {
+		margin: 2rem -3%;
+	}
+}
+
+@media (max-width: 500px) {
+  .hexIn {
+		margin: 2rem -5%;
+	}
+}
+
+@media (max-width: 420px) {
+  .hex {
+    margin-bottom: 135px;
+  }
+
+  .hexIn {
+		margin: 2rem -7%;
 	}
 }
