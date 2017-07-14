@@ -87,6 +87,10 @@ section {
   p {
     font-size: 1.1em;
   }
+
+  section {
+    margin-bottom: 1rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -100,10 +104,15 @@ section {
 
   h3 {
     font-size: 2em;
+    margin: 0;
   }
 
   p {
     font-size: 1em;
     line-height: 1.7em;
+  }
+
+  section {
+    margin-bottom: 0;
   }
 }
