@@ -12,4 +12,18 @@
     bottom: 1rem;
     position: absolute;
   }
+
+  @media only screen and (max-width: 767px) {
+    margin-top: 58px;
+
+    .container {
+      top: 2.5rem;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .container {
+      top: 1rem;
+    }
+  }
 }

@@ -72,13 +72,29 @@ section {
 }
 
 @media only screen and (max-width: 767px) {
-  body {
-    font-size: $tablet-font-size;
+  h1 {
+    font-size: 4em;
+  }
+
+  h2 {
+    font-size: 3em;
+  }
+
+  h3 {
+    font-size: 2.5em;
   }
 }
 
 @media screen and (max-width: 600px) {
-  body {
-    font-size: $mobile-font-size;
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2.5em;
+  }
+
+  h3 {
+    font-size: 2em;
   }
 }
