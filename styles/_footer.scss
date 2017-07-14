@@ -1,0 +1,19 @@
+footer {
+  font-weight: 300;
+  padding: 1rem;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 501px) {
+    .container {
+      display: block;
+
+      div {
+        margin: 1rem;
+      }
+    }
+  }
+}
