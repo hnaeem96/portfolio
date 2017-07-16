@@ -1,6 +1,7 @@
 $(document).ready(() => {
 	const navbarHeight = $('.navbar').height();
 
+	//NAVBAR
 	$('.mobile-menu').click(() => {
 		$('.menu').toggleClass("open");
 	});
@@ -37,5 +38,12 @@ $(document).ready(() => {
 		$('html, body').animate({
 			scrollTop: ($('.contact-section').offset().top - navbarHeight)
 		},'slow');
+	});
+
+	//HOME PAGE
+	$('.transition-arrow').click(() => {
+		$('html, body').animate({
+			scrollTop: ($('.about-section').offset().top - navbarHeight)
+		}, 'slow');
 	});
 });
