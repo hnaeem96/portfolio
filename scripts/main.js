@@ -1,4 +1,6 @@
 $(document).ready(() => {
+	const navbarHeight = $('.navbar').height();
+
 	$('.mobile-menu').click(() => {
 		$('.menu').toggleClass("open");
 	});
@@ -15,19 +17,19 @@ $(document).ready(() => {
 
 	$('.nav-about').click(() => {
 		$('html, body').animate({
-			scrollTop: $('.about-section').position().top
+			scrollTop: ($('.about-section').position().top - navbarHeight)
 		},'slow');
 	});
 
 	$('.nav-portfolio').click(() => {
 		$('html, body').animate({
-			scrollTop: $('.portfolio-section').position().top
+			scrollTop: ($('.portfolio-section').position().top - navbarHeight)
 		},'slow');
 	});
 
 	$('.nav-contact').click(() => {
 		$('html, body').animate({
-			scrollTop: $('.contact-section').position().top
+			scrollTop: ($('.contact-section').position().top - navbarHeight)
 		},'slow');
 	});
 });
