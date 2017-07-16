@@ -3,6 +3,10 @@ $(document).ready(() => {
 		$('.menu').toggleClass("open");
 	});
 
+	$('.nav-a').click(() => {
+		$('.menu').toggleClass("open");
+	});
+
 	$('.nav-home').click(() => {
 		$('html, body').animate({
 			scrollTop: $('.home-section').position().top
