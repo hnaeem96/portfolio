@@ -9,27 +9,33 @@ $(document).ready(() => {
 		$('.menu').toggleClass("open");
 	});
 
+	$('.logo a').click(() => {
+		$('html, body').animate({
+			scrollTop: 0
+		},'medium');
+	});
+
 	$('.nav-home').click(() => {
 		$('html, body').animate({
-			scrollTop: $('.home-section').position().top
+			scrollTop: ($('.home-section').offset().top - navbarHeight)
 		},'slow');
 	});
 
 	$('.nav-about').click(() => {
 		$('html, body').animate({
-			scrollTop: ($('.about-section').position().top - navbarHeight)
+			scrollTop: ($('.about-section').offset().top - navbarHeight)
 		},'slow');
 	});
 
 	$('.nav-portfolio').click(() => {
 		$('html, body').animate({
-			scrollTop: ($('.portfolio-section').position().top - navbarHeight)
+			scrollTop: ($('.portfolio-section').offset().top - navbarHeight)
 		},'slow');
 	});
 
 	$('.nav-contact').click(() => {
 		$('html, body').animate({
-			scrollTop: ($('.contact-section').position().top - navbarHeight)
+			scrollTop: ($('.contact-section').offset().top - navbarHeight)
 		},'slow');
 	});
 });
