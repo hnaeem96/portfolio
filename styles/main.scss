@@ -1,12 +1,12 @@
-@import 'variables';
-@import 'base';
+@import 'partials/variables';
+@import 'partials/base';
 
-@import 'nav';
-@import 'home';
-@import 'about';
-@import 'portfolio';
-@import 'contact';
-@import 'footer';
+@import 'partials/nav';
+@import 'partials/home';
+@import 'partials/about';
+@import 'partials/portfolio';
+@import 'partials/contact';
+@import 'partials/footer';
 
 
 //QUERIES
