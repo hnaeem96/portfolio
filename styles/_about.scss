@@ -1,6 +1,7 @@
 .about-section {
   .me {
     height: auto;
+    min-width: 240px;
     width: 500px;
     margin: 2rem 0;
   }
@@ -97,6 +98,10 @@
   }
 
   @media screen and (max-width: 600px) {
+    .me {
+      width: 100%;
+    }
+
     ul {
       li {
         margin-left: 0;
@@ -122,6 +127,12 @@
           width: calc(100vw - 100px);
         }
       }
+    }
+  }
+
+  @media screen and (max-width : 479px) {
+    .me {
+      margin-bottom: 0;
     }
   }
 }
