@@ -10,7 +10,7 @@ $(document).ready(() => {
 		$('.menu').toggleClass("open");
 	});
 
-	$('.logo a').click(() => {
+	$('.logo img').click(() => {
 		$('html, body').animate({
 			scrollTop: 0
 		},'medium');
