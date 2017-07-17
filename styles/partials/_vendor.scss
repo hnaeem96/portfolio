@@ -1,10 +1,11 @@
 .hex-grid {
   display: flex;
   flex-wrap: wrap;
-  width: 90%;
-  margin: 0 auto;
-  overflow: hidden;
   list-style-type: none;
+  margin: 0 auto;
+  padding-left: 0;
+  overflow: hidden;
+  width: 90%;
 }
 
 .hex {
@@ -139,7 +140,7 @@
   }
 
 	.hexIn {
-		margin: 2rem -2%;
+		margin: 2rem 2%;
 	}
 }
 
@@ -153,24 +154,10 @@
   .hex-grid{
     width: 100%;
   }
-
-  .hexIn {
-		margin: 2rem -3%;
-	}
-}
-
-@media (max-width: 500px) {
-  .hexIn {
-		margin: 2rem -5%;
-	}
 }
 
 @media (max-width: 420px) {
   .hex {
     margin-bottom: 135px;
   }
-
-  .hexIn {
-		margin: 2rem -7%;
-	}
 }
