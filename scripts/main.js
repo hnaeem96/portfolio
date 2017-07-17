@@ -1,4 +1,9 @@
+$(window).on('load', () => {
+	$('.loader').css('display', 'none');
+});
+
 $(document).ready(() => {
+	$('.container, .transition-arrow').css('opacity', '1');
 	const navbarHeight = $('.navbar').height();
 
 	//NAVBAR

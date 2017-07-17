@@ -1,3 +1,39 @@
+//LOADER
+.loader {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+
+  .svg-logo,
+  span {
+    animation: flicker 1.5s infinite;
+    opacity: 1;
+  }
+
+  .svg-logo {
+    margin: 1rem;
+  }
+
+  span {
+    font-size: 1.5rem;
+  }
+
+  @keyframes flicker {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+}
+
+//HOME SECTION
 .home-section {
   height: 99vh;
   margin-top: 80px;
@@ -11,6 +47,7 @@
   .transition-arrow {
     bottom: 1rem;
     left: 50%;
+    opacity: 0;
     position: absolute;
     transform: translate(-50%);
   }
