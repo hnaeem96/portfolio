@@ -81,6 +81,7 @@
 	margin: 0;
   padding-bottom: 100%;
   line-height: 1.25em;
+  text-align: center;
 }
 
 
@@ -162,6 +163,15 @@
 @media (max-width: 600px) {
   .hex-grid{
     width: 100%;
+  }
+
+  .hex h1 {
+    display: none;
+  }
+
+  .hex p {
+    top: 0;
+    padding-top: 30%;
   }
 }
 

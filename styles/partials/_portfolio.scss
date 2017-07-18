@@ -21,9 +21,23 @@
     }
   }
 
+  .view-app {
+    background: $white;
+    border: 1px solid $white;
+    border-radius: 1rem;
+    margin: 1rem 0 0;
+    padding: .5rem 1rem;
+    transform: translate(-50%);
+    -webkit-appearance: none;
+    cursor: pointer;
+
+    &:hover {
+      background: transparent;
+      color: $white;
+    }
+  }
+
   .e-coin {
-    // background: #154360;
-    // background: linear-gradient(-90deg, #0c2636, #154360);
     background-image: linear-gradient(135deg, #52E5E7 0%, #130CB7 100%);
 
     &::before {
@@ -32,9 +46,6 @@
   }
 
   .nyc-status {
-    // background: #3C0A6B;
-    // background: linear-gradient(-90deg, #22063c, #3c0a6b);
-    // background-image: linear-gradient( 135deg, #EEAD92 0%, #6018DC 100%);
     background-image: linear-gradient( 135deg, #F97794 0%, #623AA2 100%);
 
     &::before {
@@ -43,7 +54,6 @@
   }
 
   .acctwell {
-    // background: #424949;
     background: linear-gradient(135deg, #5a6464 0%, #1a1c1c 100%);
     &::before {
       content: 'Acctwell';
@@ -51,7 +61,6 @@
   }
 
   .trek {
-    // background: #0B5345;
     background-image: linear-gradient( 135deg, #92FFC0 0%, #002661 100%);
 
     &::before {
@@ -60,7 +69,6 @@
   }
 
   .dashboard {
-    // background: #4D110B;
     background-image: linear-gradient(135deg, #F05F57 0%, #360940 100%);
 
     &::before {
@@ -79,6 +87,10 @@
       margin-top: 1rem;
     }
 
+    .view-app {
+      margin: .5rem 0 0;
+    }
+
     .hex {
       h1 {
         font-size: 1.4em;
@@ -87,6 +99,18 @@
       p {
         font-size: 1.2em;
       }
+    }
+  }
+
+  @media (max-width: 350px) {
+    .hex {
+      p {
+        font-size: 1em;
+      }
+    }
+
+    .view-app {
+      padding: .4rem .8rem;
     }
   }
 }
