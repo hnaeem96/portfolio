@@ -13,18 +13,10 @@
   width: 100%;
   z-index: 4;
 
-  .svg-logo,
-  span {
+  .svg-logo {
     animation: flicker 1.5s infinite;
     opacity: 1;
-  }
-
-  .svg-logo {
     margin: 1rem;
-  }
-
-  span {
-    font-size: 1.5rem;
   }
 
   @keyframes flicker {
