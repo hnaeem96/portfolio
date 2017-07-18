@@ -42,6 +42,7 @@
       cursor: pointer;
       height: 44px;
       transition: background-color $transition-time, color $transition-time;
+      -webkit-appearance: none;
 
       &:hover {
         background-color: $white;
