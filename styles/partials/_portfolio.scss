@@ -13,7 +13,8 @@
       transform: translate(-50%, -50%);
     }
 
-    &:hover {
+    &:hover,
+    &:focus {
       &::before {
         content: '';
       }
@@ -21,15 +22,20 @@
   }
 
   .e-coin {
-    background: #154360;
+    // background: #154360;
+    // background: linear-gradient(-90deg, #0c2636, #154360);
+    background-image: linear-gradient(135deg, #52E5E7 0%, #130CB7 100%);
 
     &::before {
-      content: 'Mr. Robot Ecoin';
+      content: 'Mr. Robot E-coin';
     }
   }
 
   .nyc-status {
-    background: #3C0A6B;
+    // background: #3C0A6B;
+    // background: linear-gradient(-90deg, #22063c, #3c0a6b);
+    // background-image: linear-gradient( 135deg, #EEAD92 0%, #6018DC 100%);
+    background-image: linear-gradient( 135deg, #F97794 0%, #623AA2 100%);
 
     &::before {
       content: 'NYC Status';
@@ -37,15 +43,16 @@
   }
 
   .acctwell {
-    background: #424949;
-
+    // background: #424949;
+    background: linear-gradient(135deg, #5a6464 0%, #1a1c1c 100%);
     &::before {
       content: 'Acctwell';
     }
   }
 
   .trek {
-    background: #0B5345;
+    // background: #0B5345;
+    background-image: linear-gradient( 135deg, #92FFC0 0%, #002661 100%);
 
     &::before {
       content: 'Trek';
@@ -53,7 +60,8 @@
   }
 
   .dashboard {
-    background: #4D110B;
+    // background: #4D110B;
+    background-image: linear-gradient(135deg, #F05F57 0%, #360940 100%);
 
     &::before {
       content: 'Freelance Dashboard';
@@ -69,6 +77,16 @@
   @media only screen and (max-width: 600px) {
     .hex-grid {
       margin-top: 1rem;
+    }
+
+    .hex {
+      h1 {
+        font-size: 1.4em;
+      }
+
+      p {
+        font-size: 1.2em;
+      }
     }
   }
 }

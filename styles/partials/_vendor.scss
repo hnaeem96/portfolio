@@ -85,11 +85,25 @@
 
 
 /*** HOVER EFFECT  **********************************************************************/
-	.hexLink:hover h1, .hexLink:focus h1,
-	.hexLink:hover p, .hexLink:focus p{
-  opacity: 1;
-  transition: opacity .3s;
-}
+  .hexLink {
+    &:hover,
+    &:focus,
+    &:active {
+      h1,
+      p {
+        opacity: 1;
+        transition: opacity .3s;
+      }
+    }
+  }
+
+// 	.hexLink:hover h1,
+//   .hexLink:focus h1,
+// 	.hexLink:hover p,
+//   .hexLink:focus p {
+//   opacity: 1;
+//   transition: opacity .3s;
+// }
 
 /*** HEXAGON SIZING AND EVEN ROW INDENTATION *****************************************************************/
 @media (min-width:1201px) { /* <- 5-4  hexagons per row */
