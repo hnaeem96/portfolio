@@ -5,6 +5,55 @@
     margin-top: 5rem;
   }
 
+  .hexLink {
+    &::before {
+      font-size: 3em;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .e-coin {
+    background: #154360;
+
+    &::before {
+      content: 'Mr. Robot Ecoin';
+    }
+  }
+
+  .nyc-status {
+    background: #3C0A6B;
+
+    &::before {
+      content: 'NYC Status';
+    }
+  }
+
+  .acctwell {
+    background: #424949;
+
+    &::before {
+      content: 'Acctwell';
+    }
+  }
+
+  .trek {
+    background: #0B5345;
+
+    &::before {
+      content: 'Trek';
+    }
+  }
+
+  .dashboard {
+    background: #4D110B;
+
+    &::before {
+      content: 'Freelance Dashboard';
+    }
+  }
+
   @media only screen and (max-width: 767px) {
     .hex-grid {
       margin-top: 3rem;
