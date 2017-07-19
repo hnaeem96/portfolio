@@ -52,4 +52,24 @@ $(document).ready(() => {
 			scrollTop: ($('.about-section').offset().top - navbarHeight)
 		}, 'slow');
 	});
+
+	$(function(){
+  $('.typed').typed({
+    contentType: 'html',
+    strings: [
+      'Web Developer',
+      'Software Engineer',
+			'PC Gamer',
+			'Coffee Enthusiast'
+    ],
+    shuffle: false,
+    typeSpeed: 50,
+    backSpeed: 40,
+    backDelay: 1700,
+    showCursor: true,
+		cursorChar: '|',
+  	autoInsertCss: true,
+    loop: true
+  });
+});
 });
