@@ -1,0 +1,67 @@
+[
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "index.html",
+        "sha": "afc92977318e1f8d780d499301f09aae3edf0bb8"
+      }
+    ],
+    "outputSha": "0cedfaa01dd252ebfa642199f3c2ab876f07ea08",
+    "input": "index.html",
+    "output": [
+      "index.html"
+    ]
+  },
+  {
+    "type": "node-sass@4.5.3::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/main.scss",
+        "sha": "a6f50ab859a919540b46f7c7e04f24470f08f9e8"
+      },
+      {
+        "file": "styles/partials/_home.scss",
+        "sha": "4e68da4af780625bde46d1d7aa9979f7a310feaa"
+      },
+      {
+        "file": "styles/partials/_nav.scss",
+        "sha": "2e6b2365252fa322d40f8d35996b53b25e6228b7"
+      },
+      {
+        "file": "styles/partials/_vendor.scss",
+        "sha": "97e05a7ea7fb73a3caa6a232185eaf20b397a0ff"
+      },
+      {
+        "file": "styles/partials/_about.scss",
+        "sha": "b4bee2997e827def315289cf8c74d5024292484e"
+      },
+      {
+        "file": "styles/partials/_base.scss",
+        "sha": "b4cd42787c903a674cab70b5721953aae5820a20"
+      },
+      {
+        "file": "styles/partials/_variables.scss",
+        "sha": "385cf79f15930c780fe09cf85bdd88602774073a"
+      },
+      {
+        "file": "styles/partials/_contact.scss",
+        "sha": "fc4ab8d17f93d4e41ae737d62080e687d1e88f43"
+      },
+      {
+        "file": "styles/partials/_portfolio.scss",
+        "sha": "93826bfb8d31d4814cfdf889dfcf45f8989f92be"
+      },
+      {
+        "file": "styles/partials/_footer.scss",
+        "sha": "b130210b0db14cacd1f1a7705de174a7f5733e23"
+      }
+    ],
+    "outputSha": "e0737172d2ce686d0525065b431b732fe5c6401a",
+    "input": "styles/main.scss",
+    "output": [
+      "styles/main.css.map",
+      "styles/main.css"
+    ]
+  }
+]
