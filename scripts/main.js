@@ -4,7 +4,10 @@
 
 $(document).ready(() => {
 	$('.loader').css('display', 'none');
-	$('.container, .transition-arrow').css('opacity', '1');
+	setTimeout(() => {
+		$('.container, .transition-arrow').css('opacity', '1');
+	}, 500);
+
 	const navbarHeight = $('.navbar').height();
 
 	//NAVBAR
@@ -53,23 +56,25 @@ $(document).ready(() => {
 		}, 'slow');
 	});
 
-	$(function(){
-  $('.typed').typed({
-    contentType: 'html',
-    strings: [
-      'Web Developer',
-      'Software Engineer',
-			'PC Gamer',
-			'Coffee Enthusiast'
-    ],
-    shuffle: false,
-    typeSpeed: 50,
-    backSpeed: 40,
-    backDelay: 1700,
-    showCursor: true,
-		cursorChar: '|',
-  	autoInsertCss: true,
-    loop: true
-  });
-});
+	setTimeout(() => {
+		$(function(){
+	  	$('.typed').typed({
+		    contentType: 'html',
+		    strings: [
+		      'Web Developer',
+		      'Software Engineer',
+					'PC Gamer',
+					'Coffee Lover'
+		    ],
+		    shuffle: false,
+		    typeSpeed: 50,
+		    backSpeed: 40,
+		    backDelay: 1700,
+		    showCursor: true,
+				cursorChar: '|',
+		  	autoInsertCss: true,
+		    loop: true
+	  	});
+		});
+	}, 1000);
 });
