@@ -52,7 +52,7 @@
   margin: 0 auto;
 }
 
-.hex h1, .hex p {
+.hex h4, .hex p {
   width: 100%;
   padding: 15px;
   background-color: rgba(0, 0, 0, .85);
@@ -60,14 +60,14 @@
   opacity: 0;
   transition: opacity .3s;
 }
-.hex h1 {
+.hex h4 {
   bottom: 70%;
 	margin: 0;
   padding-top: 50%;
   font-size: 1.6em;
   z-index: 1;
 }
-.hex h1::after {
+.hex h4::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -90,7 +90,7 @@
     &:hover,
     &:focus,
     &:active {
-      h1,
+      h4,
       p {
         opacity: 1;
         transition: opacity .3s;
@@ -98,8 +98,8 @@
     }
   }
 
-// 	.hexLink:hover h1,
-//   .hexLink:focus h1,
+// 	.hexLink:hover h4,
+//   .hexLink:focus h4,
 // 	.hexLink:hover p,
 //   .hexLink:focus p {
 //   opacity: 1;
@@ -165,7 +165,7 @@
     width: 100%;
   }
 
-  .hex h1 {
+  .hex h4 {
     display: none;
   }
 
