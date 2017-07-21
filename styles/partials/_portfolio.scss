@@ -86,6 +86,12 @@
       margin-top: 1rem;
     }
 
+    .hexLink {
+      &::before {
+        font-size: 2em;
+      }
+    }
+
     .view-app {
       margin: .5rem 0 0;
     }
