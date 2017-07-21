@@ -65,9 +65,9 @@ $(document).ready(() => {
 		    contentType: 'html',
 		    strings: [
 		      'Web Developer',
-		      'Software Engineer',
-					'PC Gamer',
-					'Coffee Lover'
+		      'Programmer',
+					'Coffee Lover',
+					'PC Gamer'
 		    ],
 		    shuffle: false,
 		    typeSpeed: 50,
