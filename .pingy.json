@@ -13,6 +13,11 @@
 			"path": "styles/partials",
 			"action": "exclude",
 			"type": "dir"
+		},
+		{
+			"path": "scripts/vendor.js",
+			"action": "exclude",
+			"type": "file"
 		}
 	],
 	"port": 53590
