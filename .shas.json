@@ -4,28 +4,13 @@
     "inputSha": [
       {
         "file": "index.html",
-        "sha": "891d4a67adbc3f7d9e1e13caceb58bb4e3220ecc"
+        "sha": "32aef7e57711ae81425d85bb0202670e3d4d506d"
       }
     ],
-    "outputSha": "9a9462b47271adb3083381a9a38f5736466b995d",
+    "outputSha": "c44a93394039d4ee994aa1d9946da4dc5bb2fc47",
     "input": "index.html",
     "output": [
       "index.html"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "scripts/vendor.js",
-        "sha": "ba10c1565e6817a7d90d2f49c751a54b5bb07f67"
-      }
-    ],
-    "outputSha": "5f502679552b4cf751b003764f7c5c33effb5827",
-    "input": "scripts/vendor.js",
-    "output": [
-      "scripts/vendor.js.map",
-      "scripts/vendor.js"
     ]
   },
   {
@@ -57,7 +42,7 @@
       },
       {
         "file": "styles/partials/_about.scss",
-        "sha": "b4bee2997e827def315289cf8c74d5024292484e"
+        "sha": "bff1c0828e9eed5a7b07c2fe4cb02bffca309474"
       },
       {
         "file": "styles/partials/_contact.scss",
@@ -72,11 +57,26 @@
         "sha": "b130210b0db14cacd1f1a7705de174a7f5733e23"
       }
     ],
-    "outputSha": "54d5a6048d2f36894e0b6db4d67088b9bb4c54ae",
+    "outputSha": "5a9f2b500baccfffef0fd1c5a48f1d6e71c6a45a",
     "input": "styles/main.scss",
     "output": [
       "styles/main.css.map",
       "styles/main.css"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "scripts/vendor.js",
+        "sha": "ba10c1565e6817a7d90d2f49c751a54b5bb07f67"
+      }
+    ],
+    "outputSha": "5f502679552b4cf751b003764f7c5c33effb5827",
+    "input": "scripts/vendor.js",
+    "output": [
+      "scripts/vendor.js.map",
+      "scripts/vendor.js"
     ]
   }
 ]
