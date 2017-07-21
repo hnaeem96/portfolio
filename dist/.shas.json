@@ -14,6 +14,21 @@
     ]
   },
   {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "scripts/vendor.js",
+        "sha": "ba10c1565e6817a7d90d2f49c751a54b5bb07f67"
+      }
+    ],
+    "outputSha": "5f502679552b4cf751b003764f7c5c33effb5827",
+    "input": "scripts/vendor.js",
+    "output": [
+      "scripts/vendor.js.map",
+      "scripts/vendor.js"
+    ]
+  },
+  {
     "type": "node-sass@4.5.3::map::minify",
     "inputSha": [
       {
@@ -50,33 +65,18 @@
       },
       {
         "file": "styles/partials/_portfolio.scss",
-        "sha": "728b8c05f5ee5e0a9db2bd21fa2d3e59ae601241"
+        "sha": "4307a6c17766dc2c5dafe34ed53d809357ad80c8"
       },
       {
         "file": "styles/partials/_footer.scss",
         "sha": "b130210b0db14cacd1f1a7705de174a7f5733e23"
       }
     ],
-    "outputSha": "5a9f2b500baccfffef0fd1c5a48f1d6e71c6a45a",
+    "outputSha": "67d9e8689a473ee6b35e15a9ede11c223c7ac2e3",
     "input": "styles/main.scss",
     "output": [
       "styles/main.css.map",
       "styles/main.css"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "scripts/vendor.js",
-        "sha": "ba10c1565e6817a7d90d2f49c751a54b5bb07f67"
-      }
-    ],
-    "outputSha": "5f502679552b4cf751b003764f7c5c33effb5827",
-    "input": "scripts/vendor.js",
-    "output": [
-      "scripts/vendor.js.map",
-      "scripts/vendor.js"
     ]
   }
 ]
