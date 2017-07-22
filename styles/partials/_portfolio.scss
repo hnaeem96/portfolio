@@ -107,7 +107,7 @@
     }
   }
 
-  @media (max-width: 356px) {
+  @media only screen and (max-width: 356px) {
     .hex {
       p {
         font-size: 1em;
