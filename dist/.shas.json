@@ -14,6 +14,57 @@
     ]
   },
   {
+    "type": "node-sass@4.5.3::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/main.scss",
+        "sha": "3c4d515520120bedfeec8e183782fc6fac037aee"
+      },
+      {
+        "file": "styles/partials/_base.scss",
+        "sha": "83b3d2793ddb97e4ba893b8a9a5b126a5a7ef4e1"
+      },
+      {
+        "file": "styles/partials/_variables.scss",
+        "sha": "385cf79f15930c780fe09cf85bdd88602774073a"
+      },
+      {
+        "file": "styles/partials/_home.scss",
+        "sha": "8cc4a78358d9518e79ed86d506f78c9257330899"
+      },
+      {
+        "file": "styles/partials/_nav.scss",
+        "sha": "dde7ec3d876fd0d2bdb83f7b845fa2a1b31a9e29"
+      },
+      {
+        "file": "styles/partials/_vendor.scss",
+        "sha": "54c03135cdd7e1c2d4016cc3a137935b2ca7ed50"
+      },
+      {
+        "file": "styles/partials/_about.scss",
+        "sha": "29971e29cbb38b0845e53787f10a4e108e638cc4"
+      },
+      {
+        "file": "styles/partials/_contact.scss",
+        "sha": "fc4ab8d17f93d4e41ae737d62080e687d1e88f43"
+      },
+      {
+        "file": "styles/partials/_portfolio.scss",
+        "sha": "dd1a8f498d7a045f000ee39386fea94bd6ff50f3"
+      },
+      {
+        "file": "styles/partials/_footer.scss",
+        "sha": "b130210b0db14cacd1f1a7705de174a7f5733e23"
+      }
+    ],
+    "outputSha": "8a0f46f16ef900359e85a2dfccedc72355b711ef",
+    "input": "styles/main.scss",
+    "output": [
+      "styles/main.css.map",
+      "styles/main.css"
+    ]
+  },
+  {
     "type": "::map::minify",
     "inputSha": [
       {
@@ -26,57 +77,6 @@
     "output": [
       "scripts/vendor.js.map",
       "scripts/vendor.js"
-    ]
-  },
-  {
-    "type": "node-sass@4.5.3::map::minify",
-    "inputSha": [
-      {
-        "file": "styles/main.scss",
-        "sha": "a6f50ab859a919540b46f7c7e04f24470f08f9e8"
-      },
-      {
-        "file": "styles/partials/_base.scss",
-        "sha": "4fbb1dc251d6e77762a97869a808342f6a2962b0"
-      },
-      {
-        "file": "styles/partials/_variables.scss",
-        "sha": "385cf79f15930c780fe09cf85bdd88602774073a"
-      },
-      {
-        "file": "styles/partials/_home.scss",
-        "sha": "0dc274d2cd227d14bb85b9f3e81b8ee307d82905"
-      },
-      {
-        "file": "styles/partials/_nav.scss",
-        "sha": "2e6b2365252fa322d40f8d35996b53b25e6228b7"
-      },
-      {
-        "file": "styles/partials/_vendor.scss",
-        "sha": "54c03135cdd7e1c2d4016cc3a137935b2ca7ed50"
-      },
-      {
-        "file": "styles/partials/_about.scss",
-        "sha": "bff1c0828e9eed5a7b07c2fe4cb02bffca309474"
-      },
-      {
-        "file": "styles/partials/_contact.scss",
-        "sha": "fc4ab8d17f93d4e41ae737d62080e687d1e88f43"
-      },
-      {
-        "file": "styles/partials/_portfolio.scss",
-        "sha": "4307a6c17766dc2c5dafe34ed53d809357ad80c8"
-      },
-      {
-        "file": "styles/partials/_footer.scss",
-        "sha": "b130210b0db14cacd1f1a7705de174a7f5733e23"
-      }
-    ],
-    "outputSha": "d68b2a2bae1c6cb3d1a19b940ebeca1747805601",
-    "input": "styles/main.scss",
-    "output": [
-      "styles/main.css.map",
-      "styles/main.css"
     ]
   }
 ]
