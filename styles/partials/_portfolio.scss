@@ -75,13 +75,13 @@
     }
   }
 
-  @media only screen and (max-width: 767px) {
+  @media (max-width: 767px) {
     .hex-grid {
       margin-top: 3rem;
     }
   }
 
-  @media only screen and (max-width: 600px) {
+  @media (max-width: 600px) {
     .hex-grid {
       margin-top: 1rem;
     }
@@ -107,7 +107,7 @@
     }
   }
 
-  @media only screen and (max-width: 356px) {
+  @media (max-width: 356px) {
     .hex {
       p {
         font-size: 1em;

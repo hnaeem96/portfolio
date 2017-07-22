@@ -97,7 +97,7 @@
     }
   }
 
-  @media screen and (max-width: 992px) {
+  @media (max-width: 992px) {
     li {
       &:nth-child(even) {
         .timeline-section {
@@ -111,7 +111,7 @@
     }
   }
 
-  @media screen and (max-width: 600px) {
+  @media (max-width: 600px) {
     .me {
       width: 100%;
     }
@@ -144,7 +144,7 @@
     }
   }
 
-  @media screen and (max-width : 479px) {
+  @media (max-width : 479px) {
     .me {
       margin-bottom: 0;
     }

@@ -78,7 +78,7 @@ section {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media (max-width: 767px) {
   h1 {
     font-size: 4em;
   }
@@ -100,7 +100,7 @@ section {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   h1 {
     font-size: 3em;
   }
