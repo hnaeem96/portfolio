@@ -4,28 +4,13 @@
     "inputSha": [
       {
         "file": "index.html",
-        "sha": "fd971ab5f42b39746621107133ff4055b14d434d"
+        "sha": "7637a2bce4848c7486898650ec70ce9067a31c54"
       }
     ],
-    "outputSha": "5702546a93bc974d5bee1e69ef6f7422b46f64da",
+    "outputSha": "ca55cdea9618114e360cdb4224f521843ea91d34",
     "input": "index.html",
     "output": [
       "index.html"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "scripts/vendor.js",
-        "sha": "ba10c1565e6817a7d90d2f49c751a54b5bb07f67"
-      }
-    ],
-    "outputSha": "5f502679552b4cf751b003764f7c5c33effb5827",
-    "input": "scripts/vendor.js",
-    "output": [
-      "scripts/vendor.js.map",
-      "scripts/vendor.js"
     ]
   },
   {
@@ -69,14 +54,29 @@
       },
       {
         "file": "styles/partials/_footer.scss",
-        "sha": "b130210b0db14cacd1f1a7705de174a7f5733e23"
+        "sha": "294a48d84bcb55222538485ae6ff65e5741eb70a"
       }
     ],
-    "outputSha": "6c697199aac05b8aed62ec9c04acddde62c8b990",
+    "outputSha": "1fde385399162d3b51d5de0b440d57ad71ddd3c7",
     "input": "styles/main.scss",
     "output": [
       "styles/main.css.map",
       "styles/main.css"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "scripts/vendor.js",
+        "sha": "ba10c1565e6817a7d90d2f49c751a54b5bb07f67"
+      }
+    ],
+    "outputSha": "5f502679552b4cf751b003764f7c5c33effb5827",
+    "input": "scripts/vendor.js",
+    "output": [
+      "scripts/vendor.js.map",
+      "scripts/vendor.js"
     ]
   }
 ]

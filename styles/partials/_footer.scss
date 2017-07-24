@@ -7,6 +7,11 @@ footer {
     justify-content: space-between;
   }
 
+  .v-align-middle {
+    margin: 0 .2rem;
+    vertical-align: bottom;
+  }
+
   @media (max-width: 501px) {
     .container {
       display: block;
