@@ -1,19 +1,8 @@
 .about-section {
-  .me {
-    background-image: linear-gradient( 135deg, #5EFCE8 0%, #736EFE 100%);
-    height: 300px;
+  .about-logo {
+    height: 100px;
     margin: 2rem auto;
-    min-width: 240px;
-    width: 500px;
     position: relative;
-
-    &::before {
-      content: 'Portrait Coming Soon';
-      font-size: 2em;
-      position: absolute;
-      top: 50%;
-      transform: translate(-50%, -50%);
-    }
   }
 
   a {
@@ -112,8 +101,8 @@
   }
 
   @media (max-width: 600px) {
-    .me {
-      width: 100%;
+    .about-logo {
+      height: 75px;
     }
 
     ul {
@@ -145,7 +134,7 @@
   }
 
   @media (max-width : 479px) {
-    .me {
+    .about-logo {
       margin-bottom: 0;
     }
   }
