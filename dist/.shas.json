@@ -4,10 +4,10 @@
     "inputSha": [
       {
         "file": "index.html",
-        "sha": "8b605572495e8c3823671ac65d813b482f00d4ee"
+        "sha": "fd971ab5f42b39746621107133ff4055b14d434d"
       }
     ],
-    "outputSha": "2a3ee2ce64a59f31c07ccf385991e29306769e12",
+    "outputSha": "5702546a93bc974d5bee1e69ef6f7422b46f64da",
     "input": "index.html",
     "output": [
       "index.html"
@@ -57,7 +57,7 @@
       },
       {
         "file": "styles/partials/_about.scss",
-        "sha": "29971e29cbb38b0845e53787f10a4e108e638cc4"
+        "sha": "e25ec5ec6c712138d130f57c59e0d4cb546415f5"
       },
       {
         "file": "styles/partials/_contact.scss",
@@ -72,7 +72,7 @@
         "sha": "b130210b0db14cacd1f1a7705de174a7f5733e23"
       }
     ],
-    "outputSha": "8a0f46f16ef900359e85a2dfccedc72355b711ef",
+    "outputSha": "6c697199aac05b8aed62ec9c04acddde62c8b990",
     "input": "styles/main.scss",
     "output": [
       "styles/main.css.map",
