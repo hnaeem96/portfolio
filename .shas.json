@@ -3,6 +3,20 @@
     "type": "::map::minify",
     "inputSha": [
       {
+        "file": "google24bae6202a926255.html",
+        "sha": "c3d98f53d8e25c23637b6195c3306a1ba2ab8b3e"
+      }
+    ],
+    "outputSha": "c3d98f53d8e25c23637b6195c3306a1ba2ab8b3e",
+    "input": "google24bae6202a926255.html",
+    "output": [
+      "google24bae6202a926255.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
         "file": "index.html",
         "sha": "7637a2bce4848c7486898650ec70ce9067a31c54"
       }
