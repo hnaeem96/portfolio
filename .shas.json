@@ -4,13 +4,28 @@
     "inputSha": [
       {
         "file": "index.html",
-        "sha": "a8c6678740dd99dbb4813b1b60af112c69d3613d"
+        "sha": "3babf41f116952ce3e3908a4ad893b11f4a08670"
       }
     ],
-    "outputSha": "4b33bf069d0a1b5f0cc0ea80d75d7e3c79ea3b56",
+    "outputSha": "77c8bb77c3e668aeceb0d5f1b073bb665dddcdf8",
     "input": "index.html",
     "output": [
       "index.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "scripts/vendor.js",
+        "sha": "ba10c1565e6817a7d90d2f49c751a54b5bb07f67"
+      }
+    ],
+    "outputSha": "5f502679552b4cf751b003764f7c5c33effb5827",
+    "input": "scripts/vendor.js",
+    "output": [
+      "scripts/vendor.js.map",
+      "scripts/vendor.js"
     ]
   },
   {
@@ -62,21 +77,6 @@
     "output": [
       "styles/main.css.map",
       "styles/main.css"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "scripts/vendor.js",
-        "sha": "ba10c1565e6817a7d90d2f49c751a54b5bb07f67"
-      }
-    ],
-    "outputSha": "5f502679552b4cf751b003764f7c5c33effb5827",
-    "input": "scripts/vendor.js",
-    "output": [
-      "scripts/vendor.js.map",
-      "scripts/vendor.js"
     ]
   }
 ]
