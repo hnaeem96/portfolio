@@ -64,10 +64,10 @@ $(document).ready(() => {
 	  	$('.typed').typed({
 		    contentType: 'html',
 		    strings: [
-		      'Web Developer',
-		      'Programmer',
-					'Coffee Lover',
-					'PC Gamer'
+		      'Web Developer.',
+		      'Programmer.',
+					'Coffee Lover.',
+					'PC Gamer.'
 		    ],
 		    shuffle: false,
 		    typeSpeed: 50,
