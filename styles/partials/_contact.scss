@@ -5,7 +5,7 @@
     margin: auto;
     margin-bottom: 1rem;
     margin-top: 3rem;
-    max-width: 300px;
+    max-width: 400px;
 
     img {
       height: 45px;
@@ -48,6 +48,16 @@
         background-color: $white;
         color: $black;
         transition: background-color $transition-time, color $transition-time;
+      }
+    }
+  }
+
+  @media (max-width: 501px) {
+    .links-row {
+      max-width: 300px;
+
+      img {
+        height: 35px;
       }
     }
   }
