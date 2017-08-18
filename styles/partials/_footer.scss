@@ -12,6 +12,12 @@ footer {
     vertical-align: bottom;
   }
 
+  @media (max-width: 767px) {
+    .footer-btn {
+      display: none;
+    }
+  }
+
   @media (max-width: 501px) {
     .container {
       display: block;

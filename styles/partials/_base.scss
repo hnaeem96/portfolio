@@ -16,6 +16,10 @@ body {
   font-size: $base-font-size;
 }
 
+body.resume-open {
+  overflow: hidden;
+}
+
 h1,
 h2,
 h3,

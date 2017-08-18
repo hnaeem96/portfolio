@@ -1,0 +1,49 @@
+.resume {
+  background: rgba(0, 0, 0, .7);
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  overflow: auto;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 4;
+  transform: translateX(100%);
+  transition: transform .4s;
+
+  .resume-display {
+    margin-top: 2rem;
+    width: 900px;
+    height: 90%;
+    max-width: 900px;
+    position: absolute;
+    width: 90%;
+    height: 90%;
+  }
+
+  .resume-close {
+    font-size: 3rem;
+    font-weight: $font-weight-normal;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: .5rem .5rem 0 0;
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+    background: linear-gradient(135deg, #52E5E7 0%, #130CB7 100%);
+    border-radius: 50%;
+    vertical-align: middle;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    z-index: 5;
+
+    &:hover {
+      background: linear-gradient(135deg, #52E5E7 0%, #130CB7 80%);
+    }
+  }
+}
