@@ -80,4 +80,15 @@ $(document).ready(() => {
 	  	});
 		});
 	}, 1000);
+
+	//RESUME
+	$('.resume-btn').click(() => {
+		$('.resume').css('transform', 'none');
+		$('body').addClass('resume-open')
+	})
+
+	$('.resume-close').click(() => {
+		$('.resume').css('transform', 'translateX(100%)');
+		$('body').removeClass('resume-open');
+	});
 });
