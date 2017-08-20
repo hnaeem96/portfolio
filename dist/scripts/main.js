@@ -66,7 +66,7 @@ $(document).ready(() => {
 		    strings: [
 		      'Web Developer.',
 		      'Programmer.',
-					'Coffee Lover.',
+					'Tea Lover.',
 					'PC Gamer.'
 		    ],
 		    shuffle: false,
