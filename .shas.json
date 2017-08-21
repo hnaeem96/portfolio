@@ -4,28 +4,13 @@
     "inputSha": [
       {
         "file": "index.html",
-        "sha": "7195270fc58738b26ea5af10e77b7eb445b2636a"
+        "sha": "952df17511ee164fea2929098f364e92e7aef42b"
       }
     ],
-    "outputSha": "b68d39e0759e7528c1fbc3c675f3748d716ed6fe",
+    "outputSha": "967db95ab1153edc7c80d78ddbe7cd12cb1d80d9",
     "input": "index.html",
     "output": [
       "index.html"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "scripts/vendor.js",
-        "sha": "ba10c1565e6817a7d90d2f49c751a54b5bb07f67"
-      }
-    ],
-    "outputSha": "5f502679552b4cf751b003764f7c5c33effb5827",
-    "input": "scripts/vendor.js",
-    "output": [
-      "scripts/vendor.js.map",
-      "scripts/vendor.js"
     ]
   },
   {
@@ -69,18 +54,33 @@
       },
       {
         "file": "styles/partials/_resume.scss",
-        "sha": "f048c9cbfc227dd3cfc30f400093e97f60c2b47f"
+        "sha": "b4a62d2025079106a3f8aeb8d7543a9d1573e387"
       },
       {
         "file": "styles/partials/_footer.scss",
         "sha": "889e1a3485780d0439020b918e1158c86770e0a9"
       }
     ],
-    "outputSha": "b76bfa35e4ba210e99c32968e52d0733bc01f65e",
+    "outputSha": "335f1bf8d43c9b730bb533f9e1a1f37523f2159f",
     "input": "styles/main.scss",
     "output": [
       "styles/main.css.map",
       "styles/main.css"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "scripts/vendor.js",
+        "sha": "ba10c1565e6817a7d90d2f49c751a54b5bb07f67"
+      }
+    ],
+    "outputSha": "5f502679552b4cf751b003764f7c5c33effb5827",
+    "input": "scripts/vendor.js",
+    "output": [
+      "scripts/vendor.js.map",
+      "scripts/vendor.js"
     ]
   }
 ]
