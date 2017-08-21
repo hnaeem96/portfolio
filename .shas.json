@@ -14,6 +14,21 @@
     ]
   },
   {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "scripts/vendor.js",
+        "sha": "ba10c1565e6817a7d90d2f49c751a54b5bb07f67"
+      }
+    ],
+    "outputSha": "5f502679552b4cf751b003764f7c5c33effb5827",
+    "input": "scripts/vendor.js",
+    "output": [
+      "scripts/vendor.js.map",
+      "scripts/vendor.js"
+    ]
+  },
+  {
     "type": "node-sass@4.5.3::map::minify",
     "inputSha": [
       {
@@ -66,21 +81,6 @@
     "output": [
       "styles/main.css.map",
       "styles/main.css"
-    ]
-  },
-  {
-    "type": "::map::minify",
-    "inputSha": [
-      {
-        "file": "scripts/vendor.js",
-        "sha": "ba10c1565e6817a7d90d2f49c751a54b5bb07f67"
-      }
-    ],
-    "outputSha": "5f502679552b4cf751b003764f7c5c33effb5827",
-    "input": "scripts/vendor.js",
-    "output": [
-      "scripts/vendor.js.map",
-      "scripts/vendor.js"
     ]
   }
 ]
