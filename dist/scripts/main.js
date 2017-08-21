@@ -64,8 +64,8 @@ $(document).ready(() => {
 	  	$('.typed').typed({
 		    contentType: 'html',
 		    strings: [
+					'Programmer.',
 		      'Web Developer.',
-		      'Programmer.',
 					'Tea Lover.',
 					'PC Gamer.'
 		    ],

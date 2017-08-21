@@ -25,25 +25,21 @@
   }
 
   .resume-close {
-    font-size: 3rem;
-    font-weight: $font-weight-normal;
+    font-size: 1rem;
+    letter-spacing: 1px;
     position: absolute;
     top: 0;
     right: 0;
     margin: .5rem .5rem 0 0;
-    display: flex;
-    justify-content: center;
-    line-height: 30px;
-    background: linear-gradient(135deg, #52E5E7 0%, #130CB7 100%);
-    border-radius: 50%;
-    vertical-align: middle;
-    height: 40px;
-    width: 40px;
+    padding: .5rem;
+    border: 2px solid $white;
     cursor: pointer;
     z-index: 5;
+    transition: background-color .2s, color .2s;
 
     &:hover {
-      background: linear-gradient(135deg, #52E5E7 0%, #130CB7 80%);
+      background-color: $white;
+      color: $black;
     }
   }
 }
