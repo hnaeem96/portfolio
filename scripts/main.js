@@ -59,14 +59,13 @@ $(document).ready(() => {
 	  	$('.typed').typed({
 		    contentType: 'html',
 		    strings: [
-					'Programmer.',
-		      'Web Developer.',
-					'Tea Lover.',
-					'PC Gamer.'
+					'Welcome to my website.',
+		      'I\'m still currently working on it,',
+					'But I hope you like what you see so far.',
 		    ],
 		    shuffle: false,
-		    typeSpeed: 50,
-		    backSpeed: 40,
+		    typeSpeed: 30,
+		    backSpeed: 20,
 		    backDelay: 1700,
 		    showCursor: true,
 				cursorChar: '|',
