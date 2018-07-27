@@ -4,10 +4,10 @@
     "inputSha": [
       {
         "file": "index.html",
-        "sha": "21c5532f8c85788aa1a5bf23826706d465dba093"
+        "sha": "4db43e865595b39bcd3c2ae7a75e1d8543d64e03"
       }
     ],
-    "outputSha": "f339b0a789018d21aad4e87ff9423d22295aab74",
+    "outputSha": "e946b2058b758eb723982cfbabbd48a840d90c13",
     "input": "index.html",
     "output": [
       "index.html"
@@ -18,47 +18,47 @@
     "inputSha": [
       {
         "file": "styles/main.scss",
-        "sha": "fd575ab963df3b58b587345c20188de6e8813b50"
+        "sha": "84a772ad2c4c3b830239af59b0321fccc8faab98"
       },
       {
         "file": "styles/partials/_base.scss",
-        "sha": "f14f359560c22ecfcd2ac5da6f3b5c9d8a380f0f"
+        "sha": "5d7ecc92b570812a7f47907c7c1a37422ab4ecd5"
       },
       {
         "file": "styles/partials/_variables.scss",
-        "sha": "385cf79f15930c780fe09cf85bdd88602774073a"
+        "sha": "ed0d72f8a93169bf227d0b0299360d87884488d1"
       },
       {
         "file": "styles/partials/_home.scss",
-        "sha": "8cc4a78358d9518e79ed86d506f78c9257330899"
+        "sha": "a212d29892b503f03b55a28e2cfca93b90bcae46"
       },
       {
         "file": "styles/partials/_nav.scss",
-        "sha": "dde7ec3d876fd0d2bdb83f7b845fa2a1b31a9e29"
+        "sha": "c515808e885f8d3b10139612aa479404c18887d9"
       },
       {
         "file": "styles/partials/_vendor.scss",
-        "sha": "54c03135cdd7e1c2d4016cc3a137935b2ca7ed50"
+        "sha": "66dc95a72ca98b1850d37a0e4adc1166a112f8b5"
       },
       {
         "file": "styles/partials/_about.scss",
-        "sha": "e25ec5ec6c712138d130f57c59e0d4cb546415f5"
+        "sha": "74e0b8403730a4211ba838e6b62abdf94ff8ae80"
       },
       {
         "file": "styles/partials/_footer.scss",
-        "sha": "889e1a3485780d0439020b918e1158c86770e0a9"
+        "sha": "b8298c33521073197a9735f4b3e488fab357079a"
       },
       {
         "file": "styles/partials/_contact.scss",
-        "sha": "3940485560e884b4a3202275856ffaa98f88481a"
+        "sha": "d09bb987a00b5f8dfd371d70a210384b4c684146"
       },
       {
         "file": "styles/partials/_portfolio.scss",
-        "sha": "dd1a8f498d7a045f000ee39386fea94bd6ff50f3"
+        "sha": "48bc865d467e903bad2081ed7ba08b8aae168c31"
       },
       {
         "file": "styles/partials/_resume.scss",
-        "sha": "b4a62d2025079106a3f8aeb8d7543a9d1573e387"
+        "sha": "5eedbef42c049ee6d7b2727da7e1e0893990c510"
       }
     ],
     "outputSha": "a74ac3bfd06ae53f535cde58baf8c6f16972c04a",
