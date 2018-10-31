@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
@@ -23,49 +23,48 @@
 			<span class="resume-close">Close</span>
 		</div>
 
-		<div class="loader">
-			<div class="svg-logo">
-				<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 130" width="70px" height="70px"><defs><style>.cls-1{fill:#fff;}</style></defs><title>hn-logo</title><path class="cls-1" d="M0 65L65 0l65 65-65 65zm65 58.75L123.75 65 65 6.25 6.25 65z"/><path class="cls-1" d="M38 41h5v45h-5z"/><path class="cls-1" d="M38.5 59.5h26v4h-26z"/><path class="cls-1" d="M60 41h5v45h-5z"/><path class="cls-1" d="M59.95739485 43.31971758l4.33012702-2.5 24.75 42.86825748-4.33012702 2.5z"/><path class="cls-1" d="M84 41h5v45h-5z"/></svg>
+		<div class="loading">
+			<div class="loading__icon">
+				<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 130" width="70px" height="70px"><defs><style>.cls-1{fill:#fff;}</style></defs><path class="cls-1" d="M0 65L65 0l65 65-65 65zm65 58.75L123.75 65 65 6.25 6.25 65z"/><path class="cls-1" d="M38 41h5v45h-5z"/><path class="cls-1" d="M38.5 59.5h26v4h-26z"/><path class="cls-1" d="M60 41h5v45h-5z"/><path class="cls-1" d="M59.95739485 43.31971758l4.33012702-2.5 24.75 42.86825748-4.33012702 2.5z"/><path class="cls-1" d="M84 41h5v45h-5z"/></svg>
 			</div>
 		</div>
 
 		<header>
-			<nav>
-				<div class="navbar">
-					<div class="container">
-							<a class="logo"><img src="images/logo.svg" alt="HN"></a>
-						<div class="menu-list">
-							<span class="menu">
-								<ul>
-									<a class="nav-a nav-home"><li>Home</li></a>
-									<a class="nav-a nav-about"><li>About</li></a>
-									<a class="nav-a nav-portfolio"><li>Portfolio</li></a>
-									<a class="nav-a nav-contact"><li>Contact</li></a>
-								</ul>
-							</span>
-							<a class="mobile-menu"><img src="images/mobile-menu.svg" alt="Menu"></a>
-						</div>
+			<nav class="navbar">
+				<div class="container">
+					<a class="navbar__logo">
+						<img class="navbar__logo__img" src="images/logo.svg" alt="HN">
+					</a>
+					<div class="navbar__menu">
+						<span class="navbar__menu__list">
+							<ul>
+								<a class="navbar__menu__list__link navbar__menu__list__link--home"><li>Home</li></a>
+								<a class="navbar__menu__list__link navbar__menu__list__link--about"><li>About</li></a>
+								<a class="navbar__menu__list__link navbar__menu__list__link--portfolio"><li>Portfolio</li></a>
+								<a class="navbar__menu__list__link navbar__menu__list__link--contact"><li>Contact</li></a>
+							</ul>
+						</span>
+						<a class="navbar__menu__mobile-link"><img src="images/mobile-menu.svg" alt="Menu"></a>
 					</div>
 				</div>
 			</nav>
 		</header>
 
-		<section class="home-section">
-			<div class="container">
+		<section class="home">
+			<div class="container home__container">
 				<h4>Hi,</h4>
 				<h1>I'm Hassan Naeem.</h1>
-				<h3><span class="typed"></span></h3>
 			</div>
-			<a class="transition-arrow"><img src="images/expand-arrow.svg" alt="See More"/></a>
+			<a class="home__expand-arrow"><img src="images/expand-arrow.svg" alt="See More"/></a>
 		</section>
 
-		<section class="about-section">
+		<section class="about">
 			<div class="container">
 				<h2>About Me</h2>
-					<img class="about-logo" src="images/logo.svg" />
-					<ul class="timeline">
-						<li>
-							<div class="timeline-section">
+					<img class="about__logo" src="images/logo.svg" alt="HN"/>
+					<ul class="about__timeline">
+						<li class="about__timeline__section">
+							<div class="about__timeline__section__inner">
 								<time>2015</time>
 								<p>
 									Gained interest in web development while participating in
@@ -74,8 +73,8 @@
 							</div>
 						</li>
 
-						<li>
-							<div class="timeline-section">
+						<li class="about__timeline__section">
+							<div class="about__timeline__section__inner">
 								<time>2015</time>
 								<p>
 									Attended the <a target="_blank" href="https://www.flatironschool.com">Flatiron School's</a> Web Development Fellowship, where
@@ -84,8 +83,8 @@
 							</div>
 						</li>
 
-						<li>
-							<div class="timeline-section">
+						<li class="about__timeline__section">
+							<div class="about__timeline__section__inner">
 								<time>2016</time>
 								<p>
 									Interned at <a target="_blank" href="http://www.rms.com/">Risk Management Solutions</a>, where I worked on a client-based website using Angular JS.
@@ -93,8 +92,8 @@
 							</div>
 						</li>
 
-						<li>
-							<div class="timeline-section">
+						<li class="about__timeline__section">
+							<div class="about__timeline__section__inner">
 								<time>2016-2017</time>
 								<p>
 									Worked on a couple of <a target="_blank" href="https://github.com/hnaeem96">solo projects</a> to gain a better understanding of
@@ -104,8 +103,8 @@
 							</div>
 						</li>
 
-						<li>
-							<div class="timeline-section">
+						<li class="about__timeline__section">
+							<div class="about__timeline__section__inner">
 								<time>2017</time>
 								<p>
 									Interned at <a target="_blank" href="http://www.ralphandco.com/">Ralph Interactive</a>, where I used React & Redux to help
@@ -114,8 +113,8 @@
 							</div>
 						</li>
 
-						<li>
-							<div class="timeline-section">
+						<li class="about__timeline__section">
+							<div class="about__timeline__section__inner">
 								<time>2017-Present</time>
 								<p>
 									Currently working as a Software Engineer on the growth team at <a target="_blank" href="https://tictail.com/">Tictail</a>.
@@ -126,94 +125,90 @@
 			</div>
 		</section>
 
-		<section class="portfolio-section">
+		<section class="portfolio">
 			<div class="container">
 				<h2>Portfolio</h2>
-				<ul class="hex-grid">
-					<li class="hex">
-						<div class="hexIn">
-		          <a class="hexLink e-coin">
-		            <h4>Mr. Robot Ecoin</h4>
-		            <p>
-									A mobile web application which displays and allows users to redeem offers
-									around San Diego Comic Con. Contributed using React, Redux, HTML, CSS.
-									Built at Ralph.
-									<input type="button" class="view-app" onclick="window.open('https://e-coin.com');" value="View App" />
-								</p>
-		          </a>
-        		</div>
-					</li>
+				<div class="row">
+					<div class="col-12 portfolio__grid__block portfolio__grid__block--tictail">
+						<h4>Tictail</h4>
+						<p class="portfolio__grid__block__description">
+							An online global marketplace where you can shop and discover emerging brands from around the world. Worked on at Tictail.
+						</p>
+						<a class="portfolio__grid__block__link" target="_blank"  href="https://tictail.com">View Site</a>
+					</div>
+				</div>
 
-					<li class="hex">
-						<div class="hexIn">
-		          <a class="hexLink nyc-status">
-		            <h4>NYC Status</h4>
-		            <p>
-									An NYC-based homepage app showing realtime news, weather, and subway info. (WIP)
-									Made using React, Redux, Node.js, and Express.
-									<input type="button" class="view-app" onclick="window.open('https://github.com/hnaeem96/nyc-status-v2');" value="View Code" />
-								</p>
-		          </a>
-        		</div>
-					</li>
+				<div class="row">
+					<div class="col-7 left portfolio__grid__block portfolio__grid__block--ecoin">
+						<h4>Mr. Robot Ecoin</h4>
+						<p class="portfolio__grid__block__description">
+							Ecoin is the latest way E Corp is making life easier for you. Built at Ralph for Mr. Robot.
+						</p>
+						<a class="portfolio__grid__block__link" target="_blank" href="https://drive.google.com/open?id=1Ya9OPpG-M7Wwi6hT6Qx_k17FIsdTqkUS">View Images</a>
+					</div>
+					<div class="col-5 portfolio__grid__block portfolio__grid__block--clash">
+						<h4>Clash of Cupcakes</h4>
+						<p class="portfolio__grid__block__description">
+							Join host Dev Shah for the ultimate battle of batter. Built at Ralph.
+						</p>
+						<a class="portfolio__grid__block__link" target="_blank" href="http://clashofthecupcakes.com">View Site</a>
+					</div>
+				</div>
 
-					<li class="hex">
-						<div class="hexIn">
-		          <a class="hexLink acctwell">
-		            <h4>Acctwell</h4>
-		            <p>
-									A revamp of an old payroll services website. The goal was to make a
-									simple, semantic, and responsive website. Made using HTML, CSS, eJS, and Bootstrap.
-									<input type="button" class="view-app" onclick="window.open('http://www.acctwell.com/');" value="View App" />
-								</p>
-		          </a>
-        		</div>
-					</li>
+				<div class="row">
+					<div class="col-12 portfolio__grid__block portfolio__grid__block--nyc">
+						<h4>NYC Status</h4>
+						<p class="portfolio__grid__block__description">
+							An NYC-based homepage app showing realtime news, weather, and subway info. (WIP)
+							Made using React, Redux, Node.js, and Express.
+						</p>
+						<a class="portfolio__grid__block__link" target="_blank" href="https://github.com/hnaeem96/nyc-status-v2">View Code</a>
+					</div>
+				</div>
 
-					<li class="hex">
-						<div class="hexIn">
-		          <a class="hexLink trek">
-								<h4>Trek</h4>
-		            <p>
-									A mock travel website landing page, made to practice and learn
-									web development without the use of major frameworks like Bootstrap.
-									Made with HTML5, CSS3, jQuery.
-									<input type="button" class="view-app" onclick="window.open('http://traveltrek.herokuapp.com');" value="View App" />
-								</p>
-		          </a>
-        		</div>
-					</li>
+				<div class="row">
+					<div class="col-4 portfolio__grid__block portfolio__grid__block--trek">
+						<h4>Trek</h4>
+							<p class="portfolio__grid__block__description">
+								A mock travel site landing page.
+								Made with HTML5, CSS3, jQuery.
+							</p>
+						<a class="portfolio__grid__block__link" target="_blank" href="http://traveltrek.herokuapp.com">View Site</a>
+					</div>
+					<div class="col-8 portfolio__grid__block portfolio__grid__block--acctwell">
+						<h4>Acctwell</h4>
+							<p class="portfolio__grid__block__description">
+								A revamp of an old payroll services website. Made using HTML, CSS, eJS, and Bootstrap.
+							</p>
+						<a class="portfolio__grid__block__link" target="_blank" href="http://www.acctwell.com">View Site</a>
+					</div>
+				</div>
 
-					<li class="hex">
-						<div class="hexIn">
-		          <a class="hexLink dashboard">
-								<h4>Freelance Dashboard</h4>
-		            <p>
-									A mock microservice-based CRUD app used by freelancers to advertise themselves.
-									Made using Angular 2 for the front-end, and Ruby on Rails for back-end APIs.
-									<input type="button" class="view-app" onclick="window.open('https://github.com/hnaeem96/freelance-dashboard');" value="View Code" />
-								</p>
-		          </a>
-        		</div>
-					</li>
-				</ul>
 			</div>
 		</section>
 
-		<section class="contact-section">
+		<section class="contact">
 			<div class="container">
 				<h2>Get In Touch</h2>
-				<form action="https://formspree.io/hnae6443@gmail.com" method="POST">
-      			<input placeholder="Name" type="text" name="Name" required>
-						<input placeholder="Email" type="email" name="Email" required>
-						<textarea placeholder="Message" name="Message" required></textarea>
-						<input class="submit-btn" type="submit" value="Submit">
+				<form class="contact__form" action="https://formspree.io/hnae6443@gmail.com" method="POST">
+      			<input class="contact__form__input" placeholder="Name" type="text" name="Name" required>
+						<input class="contact__form__input" placeholder="Email" type="email" name="Email" required>
+						<textarea class="contact__form__input contact__form__textarea" placeholder="Message" name="Message" required></textarea>
+						<input class="contact__form__input contact__form__submit" type="submit" value="Submit">
 				</form>
-				<div class="links-row">
-					<a target="_blank" href="https://www.linkedin.com/in/nyhassan/"><img src="images/linkedin.svg" alt="LinkedIn"/></a>
-					<a target="_blank" href="https://medium.com/@hassan.naeem"><img src="images/medium.svg" alt="Medium" /></a>
-					<a target="_blank" href="https://github.com/hnaeem96"><img src="images/github.svg" alt="GitHub" /></a>
-					<a target="_blank" href="https://codepen.io/nyhassan/"><img src="images/codepen.svg" alt="CodePen" /></a>
+				<div class="contact__links">
+					<a target="_blank" href="https://www.linkedin.com/in/nyhassan/">
+						<img class="contact__links__img" src="images/linkedin.svg" alt="LinkedIn"/>
+					</a>
+					<a target="_blank" href="https://medium.com/@hassan.naeem">
+						<img class="contact__links__img" src="images/medium.svg" alt="Medium" />
+					</a>
+					<a target="_blank" href="https://github.com/hnaeem96">
+						<img class="contact__links__img" src="images/github.svg" alt="GitHub" />
+					</a>
+					<a target="_blank" href="https://codepen.io/nyhassan/">
+						<img class="contact__links__img" src="images/codepen.svg" alt="CodePen" />
+					</a>
 				</div>
 			</div>
 		</section>
