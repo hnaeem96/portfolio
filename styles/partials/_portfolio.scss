@@ -1,10 +1,14 @@
+.portfolio h2 {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
 .portfolio .container {
   text-align: left;
 }
 
-.portfolio h2 {
-  margin-bottom: 5rem;
-  text-align: center;
+.portfolio .container h4 {
+  font-weight: $font-weight-medium;
 }
 
 .portfolio__grid__block {
@@ -25,6 +29,7 @@
 
 .portfolio__grid__block__description {
   height: 140px;
+  font-weight: $font-weight-medium;
 
   @media (min-width: 500px) {
     height: 100px;
@@ -44,6 +49,8 @@
 }
 
 .portfolio__grid__block__link {
+  display: block;
+  font-weight: $font-weight-medium;
   margin: $base-margin;
   padding: $base-font-size $base-font-size * 1/2;
   border: 1px solid $white;
@@ -54,10 +61,14 @@
     color: $black;
     transition: background-color $transition-time, color $transition-time;
   }
+
+  @media (min-width: 992px) {
+    display: inline;
+  }
 }
 
 .portfolio__grid__block--tictail {
-  background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+  background-image: linear-gradient(to top, #f8bf75 0%, #e9c38e 100%);
 }
 
 .portfolio__grid__block--clash {
