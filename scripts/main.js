@@ -1,8 +1,5 @@
 $(document).ready(() => {
-	$('.loader').css('display', 'none');
-	setTimeout(() => {
-		$('.container, .transition-arrow').css('opacity', '1');
-	}, 500);
+	$('.loading').css('display', 'none');
 
 	const navbarHeight = $('.navbar').height();
 
@@ -46,7 +43,7 @@ $(document).ready(() => {
 	});
 
 	//HOME PAGE
-	$('.transition-arrow').click(() => {
+	$('.home__expand-arrow').click(() => {
 		$('html, body').animate({
 			scrollTop: ($('.about').offset().top - navbarHeight)
 		}, 'slow');
