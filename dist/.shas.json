@@ -37,10 +37,6 @@
         "sha": "26a5e3e688ced30f851942f31419be662eb1f8cb"
       },
       {
-        "file": "styles/partials/_footer.scss",
-        "sha": "889e1a3485780d0439020b918e1158c86770e0a9"
-      },
-      {
         "file": "styles/partials/_nav.scss",
         "sha": "d4d64232a9a7e8610911cd4b3b580e7360abfda9"
       },
@@ -50,7 +46,7 @@
       },
       {
         "file": "styles/partials/_portfolio.scss",
-        "sha": "4e9de425addbf37e56688ebe3bacd89e347e2201"
+        "sha": "40751b1776a4efb38b27219437cb236964ec7b2b"
       },
       {
         "file": "styles/partials/_about.scss",
@@ -59,9 +55,13 @@
       {
         "file": "styles/partials/_resume.scss",
         "sha": "b4a62d2025079106a3f8aeb8d7543a9d1573e387"
+      },
+      {
+        "file": "styles/partials/_footer.scss",
+        "sha": "889e1a3485780d0439020b918e1158c86770e0a9"
       }
     ],
-    "outputSha": "90184604661faf283388de6c1a9641e700e6bc68",
+    "outputSha": "a0d895360b42ebd995503aec3fd1911f08f036d2",
     "input": "styles/main.scss",
     "output": [
       "styles/main.css.map",
