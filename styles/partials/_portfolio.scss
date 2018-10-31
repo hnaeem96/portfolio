@@ -1,121 +1,77 @@
-@import 'vendor';
+.portfolio h2 {
+  margin-bottom: 5rem;
+}
 
-.portfolio-section {
-  .hex-grid {
-    margin-top: 5rem;
+.portfolio__grid__block {
+  height: 350px;
+
+  @media (min-width: 500px) {
+    height: 300px;
   }
 
-  .hexLink {
-    cursor: default;
-
-    &::before {
-      font-size: 3em;
-      position: absolute;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      text-rendering: geometricPrecision;
-    }
+  @media (min-width: 992px) {
+    height: 350px;
   }
 
-  .view-app {
-    -webkit-appearance: none;
-    background: $white;
-    border-radius: 1rem;
-    border: 1px solid $white;
-    cursor: pointer;
-    display: block;
-    left: 50%;
-    margin: 1rem 0 0;
-    padding: .5rem 1rem;
-    position: absolute;
-    transform: translate(-50%);
+  @media (min-width: 1100px) {
+    height: 300px;
+  }
+}
 
-    &:hover {
-      background: transparent;
-      color: $white;
-    }
+.portfolio__grid__block__description {
+  height: 140px;
+
+  @media (min-width: 500px) {
+    height: 100px;
   }
 
-  .e-coin {
-    background-image: linear-gradient(135deg, #52E5E7 0%, #130CB7 100%);
-
-    &::before {
-      content: 'Mr. Robot Ecoin';
-    }
+  @media (min-width: 768px) {
+    height: 100px;
   }
 
-  .nyc-status {
-    background-image: linear-gradient( 135deg, #F97794 0%, #623AA2 100%);
-
-    &::before {
-      content: 'NYC Status';
-    }
+  @media (min-width: 992px) {
+    height: 140px;
   }
 
-  .acctwell {
-    background: linear-gradient(135deg, #babfbf 0%, #1a1c1c 100%);
-    &::before {
-      content: 'Acctwell';
-    }
+  @media (min-width: 1100px) {
+    height: 120px;
   }
+}
 
-  .trek {
-    background-image: linear-gradient( 135deg, #92FFC0 0%, #002661 100%);
+.portfolio__grid__block__link {
+  margin: $base-margin;
+  padding: $base-font-size $base-font-size * 1/2;
+  border: 1px solid $white;
+  transition: background-color $transition-time, color $transition-time;
 
-    &::before {
-      content: 'Trek';
-    }
+  &:hover {
+    background-color: $white;
+    color: $black;
+    transition: background-color $transition-time, color $transition-time;
   }
+}
 
-  .dashboard {
-    background-image: linear-gradient(135deg, #F05F57 0%, #360940 100%);
+.portfolio__grid__block--tictail {
+  background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+}
 
-    &::before {
-      content: 'Freelance Dashboard';
-    }
-  }
+.portfolio__grid__block--clash {
+  background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+}
 
-  @media (max-width: 767px) {
-    .hex-grid {
-      margin-top: 3rem;
-    }
-  }
+.portfolio__grid__block--ecoin {
+  background-image: linear-gradient(135deg, #52E5E7 0%, #130CB7 100%);
+}
 
-  @media (max-width: 600px) {
-    .hex-grid {
-      margin-top: 1rem;
-    }
+.portfolio__grid__block--nyc {
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
 
-    .hexLink {
-      &::before {
-        font-size: 2em;
-      }
-    }
+.portfolio__grid__block--acctwell {
+  // background-image: linear-gradient(120deg, #72e4ec 0%, #66a6ff 100%);
+  background-image: linear-gradient(35deg, #66a6ff 0%, #72e4ec 100%);
+}
 
-    .view-app {
-      margin: .5rem 0 0;
-    }
-
-    .hex {
-      h4 {
-        font-size: 1.4em;
-      }
-
-      p {
-        font-size: 1.2em;
-      }
-    }
-  }
-
-  @media (max-width: 356px) {
-    .hex {
-      p {
-        font-size: 1em;
-      }
-    }
-
-    .view-app {
-      padding: .4rem .8rem;
-    }
-  }
+.portfolio__grid__block--trek {
+  background-image: linear-gradient( 135deg, #92FFC0 0%, #204172 100%);
 }

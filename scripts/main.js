@@ -23,32 +23,32 @@ $(document).ready(() => {
 
 	$('.nav-home').click(() => {
 		$('html, body').animate({
-			scrollTop: ($('.home-section').offset().top - navbarHeight)
+			scrollTop: ($('.home').offset().top - navbarHeight)
 		},'slow');
 	});
 
 	$('.nav-about').click(() => {
 		$('html, body').animate({
-			scrollTop: ($('.about-section').offset().top - navbarHeight)
+			scrollTop: ($('.about').offset().top - navbarHeight)
 		},'slow');
 	});
 
 	$('.nav-portfolio').click(() => {
 		$('html, body').animate({
-			scrollTop: ($('.portfolio-section').offset().top - navbarHeight)
+			scrollTop: ($('.portfolio').offset().top - navbarHeight)
 		},'slow');
 	});
 
 	$('.nav-contact').click(() => {
 		$('html, body').animate({
-			scrollTop: ($('.contact-section').offset().top - navbarHeight)
+			scrollTop: ($('.contact').offset().top - navbarHeight)
 		},'slow');
 	});
 
 	//HOME PAGE
 	$('.transition-arrow').click(() => {
 		$('html, body').animate({
-			scrollTop: ($('.about-section').offset().top - navbarHeight)
+			scrollTop: ($('.about').offset().top - navbarHeight)
 		}, 'slow');
 	});
 

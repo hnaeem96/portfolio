@@ -24,7 +24,8 @@ body.resume-open {
 h1,
 h2,
 h3,
-h4 {
+h4,
+p {
   font-weight: $font-weight-normal;
   margin: $base-margin;
 }
@@ -65,23 +66,23 @@ section {
   padding: 1rem;
 }
 
-.container,
+// .container,
 .transition-arrow {
   transition: opacity 3s;
 }
 
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  opacity: 0;
-  padding-left: 15px;
-  padding-right: 15px;
-  text-align: center;
+// .container {
+//   margin-left: auto;
+//   margin-right: auto;
+//   opacity: 0;
+//   padding-left: 15px;
+//   padding-right: 15px;
+//   text-align: center;
 
-  &::after {
-    clear: both;
-  }
-}
+//   &::after {
+//     clear: both;
+//   }
+// }
 
 @media (max-width: 767px) {
   h1 {

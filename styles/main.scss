@@ -1,5 +1,6 @@
 @import 'partials/variables';
 @import 'partials/base';
+@import 'partials/grid';
 
 @import 'partials/nav';
 @import 'partials/home';
@@ -11,20 +12,20 @@
 
 
 //QUERIES
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
+// @media (min-width: 768px) {
+//   .container {
+//     width: 750px;
+//   }
+// }
 
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
+// @media (min-width: 992px) {
+//   .container {
+//     width: 970px;
+//   }
+// }
 
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
-}
+// @media (min-width: 1200px) {
+//   .container {
+//     width: 1170px;
+//   }
+// }
