@@ -18,11 +18,11 @@
     "inputSha": [
       {
         "file": "styles/main.scss",
-        "sha": "31eb8ae34e960c888dbf3ab067f763eed18979c5"
+        "sha": "c026fb570ada1ee6eb170b01b73561f9d792d7f4"
       },
       {
         "file": "styles/partials/_base.scss",
-        "sha": "dacc218237626604dcbd44111585bac264bf12ba"
+        "sha": "1f6f2f6e23ce9610b09db9515fd7203cb8714125"
       },
       {
         "file": "styles/partials/_variables.scss",
@@ -46,11 +46,11 @@
       },
       {
         "file": "styles/partials/_portfolio.scss",
-        "sha": "40751b1776a4efb38b27219437cb236964ec7b2b"
+        "sha": "89010837a80ad9f0d7855373924619855d356225"
       },
       {
         "file": "styles/partials/_about.scss",
-        "sha": "e49d707022b284c8fb6d55597903cd61d0f76700"
+        "sha": "9d6261e89ea44b39dc3a150bf9834e4d6267fdbc"
       },
       {
         "file": "styles/partials/_resume.scss",
@@ -61,7 +61,7 @@
         "sha": "889e1a3485780d0439020b918e1158c86770e0a9"
       }
     ],
-    "outputSha": "a0d895360b42ebd995503aec3fd1911f08f036d2",
+    "outputSha": "f6d6522069de20c3467a21864668d4603ff289d8",
     "input": "styles/main.scss",
     "output": [
       "styles/main.css.map",
