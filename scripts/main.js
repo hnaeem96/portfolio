@@ -25,11 +25,13 @@ function scroll(destination) {
 	var endingPosition = destination.offsetTop - navbar.offsetHeight;
 	var difference = endingPosition - startingPosition;
 
-	window.scrollTo({
-		left: 0,
-		top: startingPosition + difference,
-		behavior: 'smooth',
-	});
+	setTimeout(function () {
+    window.scrollTo({
+      left: 0,
+      top: startingPosition + difference,
+      behavior: 'smooth',
+    });
+  }, 1)
 }
 
 if (
