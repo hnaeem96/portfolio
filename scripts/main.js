@@ -1,62 +1,83 @@
-$(document).ready(() => {
-	$('.loading').css('display', 'none');
+var mobileMenuLink = document.querySelector('.navbar__menu__mobile-link');
+var mobileMenuList = document.querySelector('.navbar__menu__list');
+var menuHome = document.querySelector('.navbar__menu__list__link--home')
+var menuAbout = document.querySelector('.navbar__menu__list__link--about')
+var menuPortfolio = document.querySelector('.navbar__menu__list__link--portfolio')
+var menuContact = document.querySelector('.navbar__menu__list__link--contact')
+var homeSection = document.querySelector('.home')
+var aboutSection = document.querySelector('.about')
+var portfolioSection = document.querySelector('.portfolio')
+var contactSection = document.querySelector('.contact')
+var navbar = document.querySelector('.navbar')
+var navbarLogo = document.querySelector('.navbar__logo')
+var expandArrow = document.querySelector('.home__expand-arrow')
+var resume = document.querySelector('.resume')
+var resumeOpenButton = document.querySelector('.footer__container__btn--resume')
+var resumeCloseButton = document.querySelector('.resume__close')
 
-	const navbarHeight = $('.navbar').height();
+function scroll(destination) {
+	var startingPosition = window.pageYOffset;
+	const endingPosition = destination.offsetTop - navbar.offsetHeight
+	var difference = endingPosition - startingPosition
 
-	//NAVBAR
-	$('.navbar__menu__mobile-link').click(() => {
-		$('.navbar__menu__list').toggleClass("navbar__menu__list--open");
+	window.scrollTo({
+		left: 0,
+		top: startingPosition + difference,
+		behavior: 'smooth',
 	});
+}
 
-	$('.navbar__menu__list__link').click(() => {
-		$('.navbar__menu__list').toggleClass("navbar__menu__list--open");
-	});
+var removeLoadingScreen = function() {
+	var loadingScreen = document.querySelector('.loading')
+	loadingScreen.style.display = 'none'
+}
 
-	$('.navbar__logo__img').click(() => {
-		$('html, body').animate({
-			scrollTop: 0
-		},'medium');
-	});
+if (
+	document.readyState === 'complete' ||
+	(document.readyState !== 'loading' && !document.documentElement.doScroll)) {
+	removeLoadingScreen();
+} else {
+	document.addEventListener('DOMContentLoaded', removeLoadingScreen);
+}
 
-	$('.navbar__menu__list__link--home').click(() => {
-		$('html, body').animate({
-			scrollTop: ($('.home').offset().top - navbarHeight)
-		},'slow');
-	});
+navbarLogo.onclick = function() {
+	scroll(homeSection)
+}
 
-	$('.navbar__menu__list__link--about').click(() => {
-		$('html, body').animate({
-			scrollTop: ($('.about').offset().top - navbarHeight)
-		},'slow');
-	});
+mobileMenuLink.onclick = function() {
+	mobileMenuList.classList.toggle('navbar__menu__list--open');
+}
 
-	$('.navbar__menu__list__link--portfolio').click(() => {
-		$('html, body').animate({
-			scrollTop: ($('.portfolio').offset().top - navbarHeight)
-		},'slow');
-	});
+menuHome.onclick = function() {
+	scroll(homeSection)
+	mobileMenuList.classList.toggle('navbar__menu__list--open');
+}
 
-	$('.navbar__menu__list__link--contact').click(() => {
-		$('html, body').animate({
-			scrollTop: ($('.contact').offset().top - navbarHeight)
-		},'slow');
-	});
+menuAbout.onclick = function () {
+	scroll(aboutSection)
+	mobileMenuList.classList.toggle('navbar__menu__list--open');
+}
 
-	//HOME PAGE
-	$('.home__expand-arrow').click(() => {
-		$('html, body').animate({
-			scrollTop: ($('.about').offset().top - navbarHeight)
-		}, 'slow');
-	});
+menuPortfolio.onclick = function () {
+	scroll(portfolioSection)
+	mobileMenuList.classList.toggle('navbar__menu__list--open');
+}
 
-	//RESUME
-	$('.resume-btn').click(() => {
-		$('.resume').css('transform', 'none');
-		$('body').addClass('resume-open')
-	})
+menuContact.onclick = function () {
+	scroll(contactSection)
+	mobileMenuList.classList.toggle('navbar__menu__list--open');
+}
 
-	$('.resume-close').click(() => {
-		$('.resume').css('transform', 'translateX(100%)');
-		$('body').removeClass('resume-open');
-	});
-});
+expandArrow.onclick = function() {
+	scroll(aboutSection)
+}
+
+resumeOpenButton.onclick = function() {
+	resume.style.transform = 'none';
+	document.body.classList.add('resume__open')
+}
+
+resumeCloseButton.onclick = function() {
+	resume.style.transform = 'translateX(100%)'
+	document.body.classList.remove('resume__open')
+}
