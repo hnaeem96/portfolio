@@ -14,10 +14,15 @@ var expandArrow = document.querySelector('.home__expand-arrow')
 var resume = document.querySelector('.resume')
 var resumeOpenButton = document.querySelector('.footer__container__btn--resume')
 var resumeCloseButton = document.querySelector('.resume__close')
+var loadingScreen = document.querySelector('.loading')
+
+function removeLoadingScreen() {
+  loadingScreen.style.display = 'none'
+}
 
 function scroll(destination) {
 	var startingPosition = window.pageYOffset;
-	const endingPosition = destination.offsetTop - navbar.offsetHeight
+	var endingPosition = destination.offsetTop - navbar.offsetHeight
 	var difference = endingPosition - startingPosition
 
 	window.scrollTo({
@@ -25,11 +30,6 @@ function scroll(destination) {
 		top: startingPosition + difference,
 		behavior: 'smooth',
 	});
-}
-
-var removeLoadingScreen = function() {
-	var loadingScreen = document.querySelector('.loading')
-	loadingScreen.style.display = 'none'
 }
 
 if (
